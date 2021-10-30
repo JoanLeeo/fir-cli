@@ -22,6 +22,7 @@ Options:
   -m, [--mappingfile=MAPPINGFILE]                                            # mappingfile
   -D, [--dingtalk-access-token=DINGTALK_ACCESS_TOKEN]                        # 上传完毕后 若发送至钉钉, 则填写钉钉的webhook 的access_token
       [--dingtalk-custom-message=DINGTALK_CUSTOM_MESSAGE]                    # 自定义钉钉消息 (针对钉钉新版webhook 需要校验的时候, 可以做关键字)
+      [--dingtalk_secret=DINGTALK_SECRET]                                    # 钉钉加签方式的鉴权
       [--dingtalk-at-phones=DINGTALK_AT_PHONES]                              # 钉钉  at 某人手机号
       [--dingtalk-at-all], [--no-dingtalk-at-all]
       [--feishu-access-token=FEISHU_ACCESS_TOKEN]                            # 飞书的webhook 的access_token
